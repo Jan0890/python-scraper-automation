@@ -3,14 +3,14 @@ name: Ejecutar Scraper y Guardar Datos
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:      # <--- AÑADE ESTA LÍNEA
+  workflow_dispatch:      
   schedule:
     - cron: '0 0 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Permiso crucial para que GitHub pueda subir el archivo
+      contents: write 
 
     steps:
     - name: Checkout del código
@@ -22,12 +22,15 @@ jobs:
         python-version: '3.9'
         
 
-    - name: Ejecutar Scraper de Titulos
-      run: python scraper.py
+    - name: Instalar dependencias
+      run: |
+        pip install requests beautifulsoup4
         
 
-    - name: jecutar Auditoría de Seguridad OWASP
-      run: python security_scan.py
+    - name: Ejecutar Scripts
+      run: |
+        python scraper.py
+        python security_scan.py
 
     - name: Configurar Git y subir cambios
       run: |
