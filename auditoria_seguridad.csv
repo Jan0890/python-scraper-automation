@@ -39,3 +39,18 @@ Fecha,URL,Cabecera,Estado,Valor
 2026-01-05 18:37:55,https://www.python.org,X-Content-Type-Options,FALTA (RIESGO),N/A
 2026-01-05 18:37:55,https://www.python.org,Strict-Transport-Security,PRESENTE,max-age=63072000; includeSubDomains; preload
 2026-01-05 18:37:55,https://www.python.org,Referrer-Policy,FALTA (RIESGO),N/A
+2026-01-05 18:56:57,https://www.google.com,Content-Security-Policy,FALTA (RIESGO),N/A
+2026-01-05 18:56:57,https://www.google.com,X-Frame-Options,PRESENTE,SAMEORIGIN
+2026-01-05 18:56:57,https://www.google.com,X-Content-Type-Options,FALTA (RIESGO),N/A
+2026-01-05 18:56:57,https://www.google.com,Strict-Transport-Security,FALTA (RIESGO),N/A
+2026-01-05 18:56:57,https://www.google.com,Referrer-Policy,FALTA (RIESGO),N/A
+2026-01-05 18:56:57,https://www.python.org,Content-Security-Policy,FALTA (RIESGO),N/A
+2026-01-05 18:56:57,https://www.python.org,X-Frame-Options,PRESENTE,SAMEORIGIN
+2026-01-05 18:56:57,https://www.python.org,X-Content-Type-Options,FALTA (RIESGO),N/A
+2026-01-05 18:56:57,https://www.python.org,Strict-Transport-Security,PRESENTE,max-age=63072000; includeSubDomains; preload
+2026-01-05 18:56:57,https://www.python.org,Referrer-Policy,FALTA (RIESGO),N/A
+2026-01-05 18:56:57,https://www.dhoconstrucciones.com/,Content-Security-Policy,FALTA (RIESGO),N/A
+2026-01-05 18:56:57,https://www.dhoconstrucciones.com/,X-Frame-Options,FALTA (RIESGO),N/A
+2026-01-05 18:56:57,https://www.dhoconstrucciones.com/,X-Content-Type-Options,FALTA (RIESGO),N/A
+2026-01-05 18:56:57,https://www.dhoconstrucciones.com/,Strict-Transport-Security,PRESENTE,max-age=63072000
+2026-01-05 18:56:57,https://www.dhoconstrucciones.com/,Referrer-Policy,FALTA (RIESGO),N/A
