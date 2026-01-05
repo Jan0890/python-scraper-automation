@@ -1,10 +1,11 @@
 import requests
 import pytest
 
-# Lista de sitios a probar (puedes usar los mismos de tu scraper)
+
 SITES = [
     "https://www.google.com",
-    "https://www.github.com"
+    "https://www.github.com",
+    "https://www.dhoconstrucciones.com/"
 ]
 
 @pytest.mark.parametrize("url", SITES)

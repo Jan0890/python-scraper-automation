@@ -4,7 +4,8 @@ from datetime import datetime
 
 sites = [
     "https://www.google.com",
-    "https://www.python.org"
+    "https://www.python.org",
+    "https://www.dhoconstrucciones.com/"
 ]
 
 # Cabeceras que vamos a auditar (Estándar OWASP)
